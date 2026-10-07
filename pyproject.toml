@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cdmhub-halpin-tsai"
+version = "0.1.0"
+description = "Python migration of the cdmHUB Halpin-Tsai micromechanics calculator"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0"]
+
+[dependency-groups]
+dev = ["pytest>=8", "scipy>=1.14"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
