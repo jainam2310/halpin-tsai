@@ -102,16 +102,7 @@ See `VALIDATION.md` for the recorded run.
 
 ## Release and handover
 
-Version is 0.1.0. Before handing over, run `uv run pytest` and put this folder's
-contents in the agreed repository. Generate and commit `uv.lock` locally; dependency resolution was blocked in the
-preparation environment, so it is not included yet. Exclude `.venv`, caches
-and generated results. For private hosting, the supplied contribution guide
-requires the repository under `wenbinyugroup`.
-
-After review, tag the release `v0.1.0` and send the maintainer the repository and
-tag with `halpin_tsai.calculate` as the function to serve. The maintainer owns
-the adapter, API deployment and Open WebUI integration. This deliverable has
-not been published, tagged remotely or deployed.
+Version is 0.1.0
 
 ## Attribution and references
 
