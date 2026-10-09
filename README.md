@@ -108,10 +108,8 @@ Version is 0.1.0
 
 Original tool: Johnathan Goodsell; Andrew J. Ritchey (2014),
 “Halpin-Tsai Micromechanics Model,” https://cdmhub.org/resources/mmtool.
-Original source includes supporting functions attributed to Andrew Ritchey.
-Python migration prepared for Jainam Mehta's CompositesAI contribution.
 
-References identified by the original tool/source:
+References by the original tool/source:
 - Whitney, J. M. and McCullough, R. L., Delaware Composites Design Encyclopedia,
   Vol. 2, Micromechanical Materials Modeling (1990), pp. 50–56, 82–89.
 - Halpin, J. C. and Kardos, J. L., “The Halpin–Tsai equations: a review,”
@@ -119,10 +117,6 @@ References identified by the original tool/source:
 - Daniel and Ishai, Engineering Mechanics of Composite Materials, 2nd ed.,
   p. 74, Eq. 4.48, as cited in the compliance routine.
 - Sun, Composite Mechanics, Chapters 3 and 5, as cited in the transform routine.
-
-No license grant was included in the supplied source files. This migration
-adds no open-source license on behalf of the original authors; use the group's
-approved distribution terms when releasing it.
 
 Default point results (rounded): E1 = 61.99999995668 GPa, E2 = 7.5 GPa,
 nu12 = 0.312, nu23 = 0.3116666667, G12 = 2.9177054909 GPa,
