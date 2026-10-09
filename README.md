@@ -1,4 +1,4 @@
-# cdmHUB Halpin–Tsai calculator: Python migration
+# cdmHUB Halpin–Tsai calculator
 
 Python translation of the calculation path used by the original cdmHUB
 **Halpin-Tsai Micromechanics Model**, Johnathan Goodsell and Andrew J. Ritchey
